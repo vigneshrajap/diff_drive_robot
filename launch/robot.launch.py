@@ -15,6 +15,7 @@ def generate_launch_description():
     # Launch configurations
     world = LaunchConfiguration('world')
     rviz = LaunchConfiguration('rviz')
+    gui = LaunchConfiguration('gui')
 
     # Path to default world 
     world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'world.sdf')
@@ -27,6 +28,10 @@ def generate_launch_description():
     declare_rviz = DeclareLaunchArgument(
         name='rviz', default_value='True',
         description='Opens rviz is set to True')
+
+    declare_gui = DeclareLaunchArgument(
+        name='gui', default_value='true',
+        description='Launch the Gazebo GUI')
 
     declare_use_sim_time = DeclareLaunchArgument(
         name='use_sim_time',
@@ -52,7 +57,8 @@ def generate_launch_description():
     gazebo_client = IncludeLaunchDescription(
                     PythonLaunchDescriptionSource([os.path.join(
                         get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py'
-                    )]), launch_arguments={'gz_args': '-g '}.items()
+                    )]), launch_arguments={'gz_args': '-g '}.items(),
+                    condition=IfCondition(gui)
     )
 
     # Run the spawner node from the gazebo_ros package. 
@@ -103,6 +109,7 @@ def generate_launch_description():
         # Declare launch arguments
         declare_rviz,
         declare_world,
+        declare_gui,
         declare_use_sim_time,
 
         # Launch the nodes
