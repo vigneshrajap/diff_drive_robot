@@ -82,6 +82,8 @@ source install/setup.bash
 ros2 launch diff_drive_robot robot.launch.py 
 ```
 
+The robot's forward-facing camera publishes images on `/camera/image_raw` and camera calibration data on `/camera/camera_info`. View the image with `rqt_image_view` and select `/camera/image_raw`.
+
 #### Controlling the robot
 
 Currently, only keyboard control works. Run this in another terminal:
