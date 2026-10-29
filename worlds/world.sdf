@@ -109,22 +109,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
         <inertial>
@@ -164,22 +154,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
         <inertial>
@@ -219,22 +199,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
         <inertial>
@@ -274,22 +244,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -316,22 +276,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -358,22 +308,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -400,22 +340,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -442,22 +372,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -484,22 +404,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -526,22 +436,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -568,22 +468,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -610,22 +500,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -652,22 +532,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -694,22 +564,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -736,22 +596,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -778,22 +628,12 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
-              <scale>3 0.5 3</scale>
-            </mesh>
+            <box>
+              <size>3 0.5 3</size>
+            </box>
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://brick_box_3x1x3/materials/textures/simple_box.png</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
       </link>
@@ -806,16 +646,18 @@
         <pose>0 0 0 0 0 0</pose>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://LitterBin/meshes/Litter.obj</uri>
-            </mesh>
+            <cylinder>
+              <radius>0.2</radius>
+              <length>0.7</length>
+            </cylinder>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
-            <mesh>
-              <uri>model://LitterBin/meshes/Litter.obj</uri>
-            </mesh>
+            <cylinder>
+              <radius>0.2</radius>
+              <length>0.7</length>
+            </cylinder>
           </geometry>
         </collision>
         <inertial>
@@ -840,16 +682,18 @@
       <link name='link'>
         <collision name='collision'>
           <geometry>
-            <mesh>
-              <uri>model://fire_hydrant/meshes/fire_hydrant.dae</uri>
-            </mesh>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>0.8</length>
+            </cylinder>
           </geometry>
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
-              <uri>model://fire_hydrant/meshes/fire_hydrant.dae</uri>
-            </mesh>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>0.8</length>
+            </cylinder>
           </geometry>
         </visual>
         <pose>0 0 0 0 0 0</pose>
@@ -900,15 +744,6 @@
           </geometry>
           <material>
             <diffuse>1 1 1 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Wood</name>
-            </script>
-            <pbr>
-              <metal>
-                <albedo_map>model://Table/Table_Diffuse.jpg</albedo_map>
-              </metal>
-            </pbr>
           </material>
         </visual>
         <collision name='front_left_leg'>
@@ -927,7 +762,7 @@
             <contact/>
           </surface>
         </collision>
-        <visual name='front_left_leg'>
+        <visual name='front_left_leg_visual'>
           <pose>0.68000000000000005 0.38 0.5 0 0 0</pose>
           <geometry>
             <cylinder>
@@ -937,10 +772,6 @@
           </geometry>
           <material>
             <diffuse>0.5 0.5 0.5 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
           </material>
         </visual>
         <collision name='front_right_leg'>
@@ -959,7 +790,7 @@
             <contact/>
           </surface>
         </collision>
-        <visual name='front_right_leg'>
+        <visual name='front_right_leg_visual'>
           <pose>0.68000000000000005 -0.38 0.5 0 0 0</pose>
           <geometry>
             <cylinder>
@@ -969,10 +800,6 @@
           </geometry>
           <material>
             <diffuse>0.5 0.5 0.5 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
           </material>
         </visual>
         <collision name='back_right_leg'>
@@ -991,7 +818,7 @@
             <contact/>
           </surface>
         </collision>
-        <visual name='back_right_leg'>
+        <visual name='back_right_leg_visual'>
           <pose>-0.68000000000000005 -0.38 0.5 0 0 0</pose>
           <geometry>
             <cylinder>
@@ -1001,10 +828,6 @@
           </geometry>
           <material>
             <diffuse>0.5 0.5 0.5 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
           </material>
         </visual>
         <collision name='back_left_leg'>
@@ -1023,7 +846,7 @@
             <contact/>
           </surface>
         </collision>
-        <visual name='back_left_leg'>
+        <visual name='back_left_leg_visual'>
           <pose>-0.68000000000000005 0.38 0.5 0 0 0</pose>
           <geometry>
             <cylinder>
@@ -1033,10 +856,6 @@
           </geometry>
           <material>
             <diffuse>0.5 0.5 0.5 1</diffuse>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
           </material>
         </visual>
         <pose>0 0 0 0 0 0</pose>
@@ -1057,51 +876,123 @@
       <pose>-6.6785297393798828 0.4605319499969483 0 0 0 -1.5711199985187827</pose>
       <self_collide>false</self_collide>
     </model>
-    <include>
-      <uri>model://cardboard_box</uri>
-      <name>cardboard_box</name>
+    <model name='cardboard_box'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0.65 0.45 0.25 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-3.3402875048624772 -0.27349737414628456 0.1499994124539426 -1.533510012817295e-08 -2.7150015844914586e-09 8.2840972544311675e-11</pose>
-    </include>
-    <include>
-      <uri>model://cardboard_box</uri>
-      <name>cardboard_box_1</name>
+    </model>
+    <model name='cardboard_box_1'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0.65 0.45 0.25 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-4.0336042366556519 -0.24690908647681753 0.14999943526777965 5.48792996566225e-19 5.5886592666607489e-19 1.0844620732015429e-19</pose>
-    </include>
-    <include>
-      <uri>model://cardboard_box</uri>
-      <name>cardboard_box_2</name>
+    </model>
+    <model name='cardboard_box_2'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0.65 0.45 0.25 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-3.346992931676799 0.35758179335350909 0.1499994316743983 9.0815927151971433e-09 -2.0961516338297197e-09 -1.7689922600414535e-10</pose>
-    </include>
-    <include>
-      <uri>model://cardboard_box</uri>
-      <name>cardboard_box_3</name>
+    </model>
+    <model name='cardboard_box_3'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0.65 0.45 0.25 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-4.0411734960500283 0.36146171780449876 0.14999943526777965 -7.7194571228540456e-19 5.6477558067329852e-19 1.2176305795303555e-19</pose>
-    </include>
-    <include>
-      <uri>model://cardboard_box</uri>
-      <name>cardboard_box_0</name>
+    </model>
+    <model name='cardboard_box_0'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0.65 0.45 0.25 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-3.3779299258754691 0.073574103619960501 0.44999958500484438 -4.4761423179533105e-09 -1.7892064242453582e-08 1.5939900095856336</pose>
-    </include>
-    <include>
-      <uri>model://cardboard_box</uri>
-      <name>cardboard_box_0_1</name>
+    </model>
+    <model name='cardboard_box_0_1'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0.65 0.45 0.25 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-4.0059419983278843 0.069038849917642725 0.44999989143962449 1.9689714282385347e-08 6.3681843818835901e-07 1.593990008796055</pose>
-    </include>
-    <include>
-      <uri>model://coke_can_steel</uri>
-      <name>coke_can_steel</name>
+    </model>
+    <model name='coke_can_steel'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><cylinder><radius>0.035</radius><length>0.12</length></cylinder></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><cylinder><radius>0.035</radius><length>0.12</length></cylinder></geometry>
+          <material><diffuse>0.75 0.75 0.78 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-6.6250901222236847 0.97237497567775699 1.0147961008440121 -0.011212019890960765 0.0040288546611016093 -3.293628149503526e-05</pose>
-    </include>
-    <include>
-      <uri>model://coke_can_steel</uri>
-      <name>coke_can_steel_1</name>
+    </model>
+    <model name='coke_can_steel_1'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><cylinder><radius>0.035</radius><length>0.12</length></cylinder></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><cylinder><radius>0.035</radius><length>0.12</length></cylinder></geometry>
+          <material><diffuse>0.75 0.75 0.78 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-6.4818402138265592 0.77228682869897081 1.0147962202323135 -0.011212018571084675 0.004028854362532492 -3.2936373342153726e-05</pose>
-    </include>
-    <include>
-      <uri>model://coke_can_steel</uri>
-      <name>coke_can_steel_2</name>
+    </model>
+    <model name='coke_can_steel_2'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><cylinder><radius>0.035</radius><length>0.12</length></cylinder></geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry><cylinder><radius>0.035</radius><length>0.12</length></cylinder></geometry>
+          <material><diffuse>0.75 0.75 0.78 1</diffuse></material>
+        </visual>
+      </link>
       <pose>-6.7145872241327291 0.60093759938907021 1.0147962202323135 -0.011212018571084673 0.0040288543625325076 -3.2936373342153814e-05</pose>
-    </include>
+    </model>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>
       <cast_shadows>true</cast_shadows>
